@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		6505B1CA2A38308F001EFBA1 /* ESDiac_AuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505B1C92A38308F001EFBA1 /* ESDiac_AuthApp.swift */; };
-		6505B1CC2A38308F001EFBA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505B1CB2A38308F001EFBA1 /* ContentView.swift */; };
 		6505B1CE2A3830CA001EFBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6505B1CD2A3830CA001EFBA1 /* Assets.xcassets */; };
 		6505B1D22A3830CA001EFBA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6505B1D12A3830CA001EFBA1 /* Preview Assets.xcassets */; };
+		6505B1D92A383184001EFBA1 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505B1D82A383184001EFBA1 /* RegistrationView.swift */; };
+		6505B1E02A3856EE001EFBA1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505B1DF2A3856EE001EFBA1 /* HomeView.swift */; };
+		6505B1E72A38621E001EFBA1 /* Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505B1E62A38621E001EFBA1 /* Checker.swift */; };
+		6505B1E92A386799001EFBA1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505B1E82A386799001EFBA1 /* LoginView.swift */; };
+		65A620A72A3914780018E2F9 /* UserDetails.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65A620A52A3914780018E2F9 /* UserDetails.xcdatamodeld */; };
+		65A620A92A39238B0018E2F9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A620A82A39238B0018E2F9 /* Persistence.swift */; };
+		65A620B12A394B6A0018E2F9 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A620B02A394B6A0018E2F9 /* UserProfileView.swift */; };
+		65A620B32A395D120018E2F9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A620B22A395D120018E2F9 /* User.swift */; };
+		65A620B92A39C1D70018E2F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A620B82A39C1D70018E2F9 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6505B1C62A38308F001EFBA1 /* ESDiac_Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESDiac_Auth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6505B1C92A38308F001EFBA1 /* ESDiac_AuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESDiac_AuthApp.swift; sourceTree = "<group>"; };
-		6505B1CB2A38308F001EFBA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6505B1CD2A3830CA001EFBA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6505B1CF2A3830CA001EFBA1 /* ESDiac_Auth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ESDiac_Auth.entitlements; sourceTree = "<group>"; };
 		6505B1D12A3830CA001EFBA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6505B1D82A383184001EFBA1 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		6505B1DF2A3856EE001EFBA1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6505B1E62A38621E001EFBA1 /* Checker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checker.swift; sourceTree = "<group>"; };
+		6505B1E82A386799001EFBA1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		65A620A62A3914780018E2F9 /* UserDetails.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDetails.xcdatamodel; sourceTree = "<group>"; };
+		65A620A82A39238B0018E2F9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		65A620B02A394B6A0018E2F9 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		65A620B22A395D120018E2F9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		65A620B82A39C1D70018E2F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,10 @@
 		6505B1C82A38308F001EFBA1 /* ESDiac_Auth */ = {
 			isa = PBXGroup;
 			children = (
+				65A620B62A39C1070018E2F9 /* Model */,
+				65A620B72A39C1210018E2F9 /* ViewModel */,
+				6505B1E12A385B1F001EFBA1 /* Views */,
 				6505B1C92A38308F001EFBA1 /* ESDiac_AuthApp.swift */,
-				6505B1CB2A38308F001EFBA1 /* ContentView.swift */,
 				6505B1CD2A3830CA001EFBA1 /* Assets.xcassets */,
 				6505B1CF2A3830CA001EFBA1 /* ESDiac_Auth.entitlements */,
 				6505B1D02A3830CA001EFBA1 /* Preview Content */,
@@ -67,6 +85,36 @@
 				6505B1D12A3830CA001EFBA1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6505B1E12A385B1F001EFBA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6505B1DF2A3856EE001EFBA1 /* HomeView.swift */,
+				6505B1D82A383184001EFBA1 /* RegistrationView.swift */,
+				6505B1E82A386799001EFBA1 /* LoginView.swift */,
+				65A620B02A394B6A0018E2F9 /* UserProfileView.swift */,
+				65A620B82A39C1D70018E2F9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65A620B62A39C1070018E2F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65A620A52A3914780018E2F9 /* UserDetails.xcdatamodeld */,
+				65A620B22A395D120018E2F9 /* User.swift */,
+				65A620A82A39238B0018E2F9 /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65A620B72A39C1210018E2F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6505B1E62A38621E001EFBA1 /* Checker.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +133,8 @@
 			dependencies = (
 			);
 			name = ESDiac_Auth;
+			packageProductDependencies = (
+			);
 			productName = ESDiac_Auth;
 			productReference = 6505B1C62A38308F001EFBA1 /* ESDiac_Auth.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +163,8 @@
 				Base,
 			);
 			mainGroup = 6505B1BD2A38308E001EFBA1;
+			packageReferences = (
+			);
 			productRefGroup = 6505B1C72A38308F001EFBA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6505B1CC2A38308F001EFBA1 /* ContentView.swift in Sources */,
+				65A620B32A395D120018E2F9 /* User.swift in Sources */,
+				65A620B92A39C1D70018E2F9 /* ContentView.swift in Sources */,
+				65A620A92A39238B0018E2F9 /* Persistence.swift in Sources */,
+				6505B1D92A383184001EFBA1 /* RegistrationView.swift in Sources */,
+				6505B1E02A3856EE001EFBA1 /* HomeView.swift in Sources */,
+				65A620B12A394B6A0018E2F9 /* UserProfileView.swift in Sources */,
+				6505B1E72A38621E001EFBA1 /* Checker.swift in Sources */,
 				6505B1CA2A38308F001EFBA1 /* ESDiac_AuthApp.swift in Sources */,
+				65A620A72A3914780018E2F9 /* UserDetails.xcdatamodeld in Sources */,
+				6505B1E92A386799001EFBA1 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +339,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -317,7 +377,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -354,6 +414,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65A620A52A3914780018E2F9 /* UserDetails.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65A620A62A3914780018E2F9 /* UserDetails.xcdatamodel */,
+			);
+			currentVersion = 65A620A62A3914780018E2F9 /* UserDetails.xcdatamodel */;
+			path = UserDetails.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6505B1BE2A38308E001EFBA1 /* Project object */;
 }
